@@ -1,88 +1,76 @@
-# FP4-proposal
+# Project Title: SpaceXplore
 
-The project proposal includes these components:
+### Statement
+We're designing a 2D game that uses graphics and sound to make it fun and interesting. The user will be able to control a spaceship and the purpose of the game is to avoid the obstacles that are ahead. 
 
-1. A repository for the team project
-2. A `README.md` file in this repository, which is the project plan
-3. A 3-slide slide deck to be presented in class
+### Analysis
+To allow the user to move the spacecraft anywhere on the screen we will use cons, car and cdr. Use FoldL for handling situations when the health of the spacecraft is low or when the the spacecraft hits an object. Use recusion to create multiple obstacles. We will use inheritance and map .....................
 
-## Due Dates
-* Wed 2016-04-06 at 12 noon (before class) (Martin section)
-* Thu 2016-04-07 at 3:30p (before class) (Sherman section)
+Explain what approaches from class you will bring to bear on the project. Be explicit: e.g., will you use recursion? How? Will you use map/filter/reduce? How? Will you use data abstraction? Will you use object-orientation? Will you use functional approaches to processing your data? Will you use state-modification approaches? A combination?
 
-Ask questions, as always, [on our discussion forum!][forum]
+The idea here is to identify what ideas from the class you will use in carrying out your project. 
 
-## Instructions
-
-Teams will submit a single proposal, with sections that each member has done individually detailing their proposed contributions. The submission will be the `README.md` file in your brand-new project repository, which you'll make. 
-
-You must start using GitHub collaboratively from this point forward. 
-
-Instructions: 
-
-1. Create a new repo as part of the `oplS16projects` organization
-  * Give it a name that you like—may be your real names, usernames, or project name
-  * Add your teammates as collaborators (Settings > Collaborators & Teams > Add Collaborator)
-2. Copy the content from the [template file](template.md) into your `README.md`
-  * Click the “Raw” button on the `template.md` file and then copy-paste into your repo's `README.md` edit view
-  * Save it
-  * Then start editing it to be the real thing
-3. Everyone on the team contributes their sections to your `README.md` file.
-  * Use GitHub's collaboration features to make sure that each team member contributes meaningful content to the file
-  * At the absolute minimum, respective team members must have commits that show they have authored the section describing their planned contributions
-4. Create a [github Release](https://help.github.com/articles/creating-releases/
-) of your repository. 
- * Version: v0.0
- * Title: Proposal
- * Description: tag `@fgmart` or `@marksherman` depending on your section
-
-And now some detail on what to write _in_ the report.
-
-**Overall guidance:** *You should be proposing something that you have high confidence that you can achieve, and the proposal should project that confidence.*
-
-The proposal should be no longer than necessary, but long enough to include critical detail. Diagrams are welcome. 
-
-Remember, you can do some neat [formatting things with Markdown.][markdown]
-
-In case you missed it, here again is the [template file](template.md)
-
-## In-Class Presentation 
-Teams will each deliver an in-class presentation. Your team will have two minutes to present.
-
-The presentation shall have exactly three slides:
-
-1. Title
-  * project title (10 words or fewer)
-  * your real names
-  * each real name followed by GitHub username
-  * a relevant image of some sort (optional)
-2. Overview
-  * a few short phrases describing the project
-  * a different relevant image (optional)
-3. Architecture Diagram 
-  * visual diagram showing the major components of the project
-  * include external things that your project will connect to
-  * include arrows showing flow of information
-  * internal components annotated with Racket libraries that they will use
-  * _important:_ annotate each block with the GH username of the person who is primarily responsible for its creation
-
-Make the slides in [Google Slides][gslides].
-
-Then, import your deck into the correct whole-class slide deck:
-* [Martin section][martinslides]
-* [Sherman section][shermanslides]
-
-You and your teammates will give the presentation in class the day that this assignment is due.
-
-## Grading
-The proposal must be submitted on time to receive credit. Late submissions will not be accepted for credit.
-
-You personally must be present in class (and participate in the presentation when it is your turn) to receive credit for the presentation. If your teammates are there and you are not, they will receive presentation credit and you will not.
+### Data set or other source materials
+We will be building our own simulation and creating our own data. We will however be using 2D sprits from randowm websites for our game.
 
 
-<!-- Links -->
-[forum]: https://groups.google.com/forum/#!forum/uml-opl-spr16
-[markdown]: https://help.github.com/articles/markdown-basics/
-[gslides]:https://slides.google.com
-[martinslides]:https://docs.google.com/presentation/d/1EqE432gl3Narx8a2vZQKvchEmoYqMkzR3SrHFr5LiAg
-[shermanslides]:https://docs.google.com/presentation/d/1T7uZLQLm-umosUfEK9cp4VNGjUm8SUN1DCVTzlGvr2Q
+### Deliverable and Demonstration
+In the end we will have a fully funtional interactive game that will allow the user to contol the spacecraft and move around obstacles. The obstacles will be random so the user will not know where to move the spacecraft. 
+
+
+Will it be interactive? Can you show it working? This project involves a live demo, so interactivity is good.
+
+### Evaluation of Results
+We should be able to run the game without any errors till the end.
+
+
+How will you know if you are successful? 
+If you include some kind of _quantitative analysis,_ that would be good.
+
+## Architecture Diagram
+Upload the architecture diagram you made for your slide presentation to your repository, and include it in-line here.
+
+Create several paragraphs of narrative to explain the pieces and how they interoperate.
+
+## Schedule
+Explain how you will go from proposal to finished product. 
+
+There are three deliverable milestones to explicitly define, below.
+
+The nature of deliverables depend on your project, but may include things like processed data ready for import, core algorithms implemented, interface design prototyped, etc. 
+
+You will be expected to turn in code, documentation, and data (as appropriate) at each of these stages.
+
+Write concrete steps for your schedule to move from concept to working system. 
+
+### First Milestone (Fri Apr 15)
+A 2D world with the spacecraft being able to more around in it. 
+
+### Second Milestone (Fri Apr 22)
+Add features like health, sound, obstacles 
+
+### Final Presentation (last week of semester)
+Add more interactive things. Start page/intro.
+
+## Group Responsibilities
+Here each group member gets a section where they, as an individual, detail what they are responsible for in this project. Each group member writes their own Responsibility section. Include the milestones and final deliverable.
+
+**Additional instructions for teams of three:** 
+* Remember that you must have prior written permission to work in groups of three (specifically, an approved `FP3` team declaration submission).
+* The team must nominate a lead. This person is primarily responsible for code integration. This work may be shared, but the team lead has default responsibility.
+* The team lead has full partner implementation responsibilities also.
+* Identify who is team lead.
+
+In the headings below, replace the silly names and GitHub handles with your actual ones.
+
+### Lokesh Manchi @lokeshmanchi
+I will write the code that allows the user to move the spacecraft freely to avoid the obsticles and write code for sound.
+For the first milestone I will create the code for allowing the user to move the spacecraft.
+For the second milestone I will write code for the sound to make the game more immersive and create the health bar
+For the final milestone I will help create the start page and any other small details to make the game for lively.
+
+
+### Rob Russell @robdoesweb
+I will work on creating the 2D world for the game, this includes obsticles 
+
+
